@@ -1,0 +1,137 @@
+/* Headerの設定 */
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 1300px;
+    height: 110px;
+    align-items: center;
+}
+
+.page-logo{
+    margin: 0 0 0 20px;
+}
+
+.top-menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+}
+
+.nav-item{
+    margin: 50px 0 0 30px;
+}
+
+.nav-item>a{
+    font-size: 14px;
+    color: green;
+    text-decoration: none;   
+}
+
+.nav-item>a:hover{
+    color: black;  
+}
+
+/* 2カラムデザインの構成設定 */
+.two-column-design{
+    display: grid;
+    grid-template-columns: 400px 900px;
+    grid-template-areas: "left-pane right-pane";
+}
+
+/* 左ペイン検索フォーム */
+.searchbar{
+    margin: 8px 0 20px 40px;
+}
+
+/* 左ペイン条件メニュー部分 */
+.conditions-menu{
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu-items{
+    margin: 5px 0 0 5px;
+}
+
+.menu-items>h1{
+    font-size: 16px;
+    font-weight: bold;
+    color: whitesmoke;
+    margin: 0 0 10px 0;
+}
+
+.menu-items>p{
+    font-size: 14px;
+    margin: 0 0 3px 2px;
+}
+
+.menu-items>p>a{
+    text-decoration: none;
+    color: black; 
+}
+
+.menu-items>p>a:hover{
+    text-decoration: underline;
+}
+
+.categories{
+    background-color: lightgray;
+    width: 270px;
+    height: 150px;
+    margin: 0 0 0 50px;
+}
+
+.prices{
+    background-color: lightgray;
+    width: 270px;
+    height: 150px;
+    margin: 0 0 0 50px;
+}
+
+/* mapサイズの指定 */
+#mainmap{
+    width: 900px;
+    height: 600px;
+}
+
+
+/* leaflet表示ページのCSS */
+.leaflet-header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 1300px;
+    height: 20px;
+    align-items: left;
+}
+
+.leaflet-letter-button{
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 0.4em 1.6em;
+    font-size: 0.8em;
+    color: #00b5ad;
+    text-decoration: none;
+    cursor: pointer;
+    user-select: none;
+}
+  
+.leaflet-letter-button:hover{
+    opacity: 0.5;
+}
+
+.leaflet-main{
+    width: 1300px;
+    height: 700px;
+    margin: 0 0 0 20px;
+}
+
+canvas{
+    border: 0.5px solid lightgray;
+    width:600px;
+    height:700px;
+}
