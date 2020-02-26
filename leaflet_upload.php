@@ -56,6 +56,6 @@
     <!-- JavaScript -->
     <script src="js/main.js"></script> 
     <!-- google map api -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAj8T-1MUPlosqCygMb8Boc982E7kK5Kb0&callback=initMap"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=<?php include("keys/googlemap.php"); ?>&callback=initMap"></script>
 </body>
 </html>
